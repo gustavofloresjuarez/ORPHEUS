@@ -1,7 +1,7 @@
 {
     "global": {
         "general": {
-            "download_path": "añadir ruta",
+            "download_path": "/content/drive/MyDrive/Hi-Res 4",
             "download_quality": "hifi",
             "search_limit": 10
         },
@@ -22,14 +22,14 @@
             "spatial_codecs": true
         },
         "module_defaults": {
-            "lyrics": "musixmatch",
+            "lyrics": "default",
             "covers": "default",
             "credits": "default"
         },
         "lyrics": {
-            "embed_lyrics": true,
-            "embed_synced_lyrics": true,
-            "save_synced_lyrics": true
+            "embed_lyrics": false,
+            "embed_synced_lyrics": false,
+            "save_synced_lyrics": false
         },
         "covers": {
             "embed_cover": true,
@@ -68,6 +68,11 @@
     },
     "extensions": {},
     "modules": {
+        "musixmatch": {
+            "token_limit": 10,
+            "lyrics_format": "standard",
+            "custom_time_decimals": false
+        },
         "deezer": {
             "client_id": "447462",
             "client_secret": "a83bf7f38ad2f137e444727cfc3775cf",
@@ -76,32 +81,15 @@
             "prefer_mhm1": false,
             "email": "",
             "password": "",
-            "arl": "bc535363731cf9059ef2f709db0f9b131b070d984481bc844b095b7bb01a7a16fb48ca0e12ca7a7410ac4669289284ad6ce3bc25fa1164bdf2fc29e70db5b9d73edce32cb186f62881c18a18f5e98b09836a31f7873428144bc0c95ae939e9c6"
-        },
-        "kkbox": {
-            "kc1_key": "7f1a68f00b747f4ac1469c72e7ef492c",
-            "email": "",
-            "password": ""
+            "arl": "85345484c0491e56e4e60577a68d6ccfd1e7d6d4efda47dc952a83990386afa4638bbcf1e613c33702e4b41b3837b1ae398f19611bc719823f3f91d691632f098f65533f55a63f162e6e7a952cefe2c1d02d824b15830651194bae0a6d6a40c6"
         },
         "qobuz": {
             "app_id": "950096963",
             "app_secret": "979549437fcc4a3faad4867b5cd25dcb",
             "quality_format": "{sample_rate}kHz {bit_depth}bit",
             "auth_with_tokens": true,
-            "username_or_UserID": "2603075",
-            "password_or_Token": "7GQ6h-ryN_p35ptaHHEol0U41H3UB4BrZJiPGoMiXKzTHMAlrXei-gmDr0oL301GRfbYrqS18HeBIs8JnIZMNg"
-        },
-        "musixmatch": {
-            "token_limit": 10,
-            "lyrics_format": "standard",
-            "custom_time_decimals": false
-        },
-        "napster": {
-            "api_key": "ZTJlOWNhZGUtNzlmZS00ZGU2LTkwYjMtZDk1ODRlMDkwODM5",
-            "customer_secret": "MTRjZTVjM2EtOGVlZi00OTU3LWFmNjktNTllODFhNmYyNzI5",
-            "requested_netloc": "napster",
-            "username": "",
-            "password": ""
+            "username_or_UserID": "3157425",
+            "password_or_Token": "KrT4_d6GvbZFl94wmKZcQYR9QTfOgWCyN9ieUuXodtQcphA_YYqCnFwLATpxhMeSH-z1OaZx7ZyO-9e_5Ganig"
         }
     }
 }
